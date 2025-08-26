@@ -1,4 +1,6 @@
 import React, { useEffect, useState, useRef } from 'react';
+import { motion } from 'framer-motion';
+
 import TEAMS from './data/teams.js';
 import generateRoster from './lib/roster.js';
 import PlayerCard from './components/PlayerCard.jsx';
@@ -119,7 +121,7 @@ export default function App(){
               </div>
             </div>
 
-            <div className="bg-green-700 h-48 rounded relative overflow-hidden">
+            <motion.div animate={{ scale: [1, 1.01, 1] }} transition={{ duration: 4 }} className="bg-green-700 h-48 rounded relative overflow-hidden">
               <div className="absolute inset-0 p-6">
                 <div className="w-full h-full relative bg-[linear-gradient(#0b6623,#0a5a1f)] rounded">
                   {Array.from({length:11}).map((_,i)=>(
