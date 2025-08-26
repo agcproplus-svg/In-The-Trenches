@@ -36,3 +36,14 @@ This repo includes placeholders for team logos in `src/assets/logos/`. Replace t
   - Expand the percentile tables with historical/statistical data.
   - Add richer animations, audio, and UI polish.
 
+
+## GitHub Pages deployment
+
+A GitHub Action workflow is included in `.github/workflows/gh-pages.yml`. To deploy on push to `main`, ensure the repository's Pages setting is set to use the `gh-pages` branch or the action's published branch as configured by the action.
+
+To deploy manually:
+
+```bash
+npm run build
+# then use an action or gh-pages package to push /dist to gh-pages branch
+```
