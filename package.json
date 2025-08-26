@@ -11,7 +11,7 @@
     "fetch:pbp": "python scripts/download_nflverse_pbp.py 2019 2020 2021 2022 2023",
     "process:pbp": "python scripts/process_pbp_to_percentiles.py"
   },
-  "dependencies": {
+  "dependencies": {\n    "react-router-dom": "^6.23.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "framer-motion": "^10.12.16"
