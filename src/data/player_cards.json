@@ -1,0 +1,107 @@
+{
+  "QB": [
+    {
+      "label": "Incomplete",
+      "weight": 20,
+      "yards": 0
+    },
+    {
+      "label": "Short Completion (1-9)",
+      "weight": 30,
+      "yards": 6
+    },
+    {
+      "label": "Medium Completion (10-19)",
+      "weight": 25,
+      "yards": 14
+    },
+    {
+      "label": "Long Completion (20+)",
+      "weight": 15,
+      "yards": 32
+    },
+    {
+      "label": "Interception",
+      "weight": 10,
+      "yards": 0
+    }
+  ],
+  "RB": [
+    {
+      "label": "Tackle for loss",
+      "weight": 5,
+      "yards": -2
+    },
+    {
+      "label": "Short gain (1-4)",
+      "weight": 55,
+      "yards": 3
+    },
+    {
+      "label": "Medium gain (5-12)",
+      "weight": 30,
+      "yards": 8
+    },
+    {
+      "label": "Breakaway (13+)",
+      "weight": 10,
+      "yards": 20
+    }
+  ],
+  "WR": [
+    {
+      "label": "Short catch",
+      "weight": 40,
+      "yards": 6
+    },
+    {
+      "label": "Medium catch",
+      "weight": 35,
+      "yards": 12
+    },
+    {
+      "label": "Deep catch",
+      "weight": 15,
+      "yards": 25
+    },
+    {
+      "label": "Drop",
+      "weight": 10,
+      "yards": 0
+    }
+  ],
+  "TE": [
+    {
+      "label": "Short catch",
+      "weight": 50,
+      "yards": 6
+    },
+    {
+      "label": "Medium catch",
+      "weight": 35,
+      "yards": 12
+    },
+    {
+      "label": "Big catch",
+      "weight": 15,
+      "yards": 20
+    }
+  ],
+  "DEF": [
+    {
+      "label": "Minimal",
+      "weight": 50,
+      "yards": 3
+    },
+    {
+      "label": "Stop",
+      "weight": 30,
+      "yards": 0
+    },
+    {
+      "label": "Big Play",
+      "weight": 20,
+      "yards": -10
+    }
+  ]
+}
